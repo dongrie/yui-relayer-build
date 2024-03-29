@@ -21,7 +21,10 @@
     },
     "max_gas_limit": 10000000,
     "tx_type": "auto",
-    "blocks_per_event_query": 1000
+    "abi_paths": [
+      "/Users/dongri.jin/Desktop/abi-1",
+      "/Users/dongri.jin/Desktop/abi-2"
+    ]
   },
   "prover": {
     "@type": "/relayer.provers.mock.config.ProverConfig",
